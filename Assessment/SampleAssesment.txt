@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<map>
+<data>
+<list>
+<item>
+<map>
+<answerChoice>
+<list>
+<item>Compromising</item>
+<item>Avoiding</item>
+<item>Competing</item>
+<item>Collaboration</item>
+</list>
+</answerChoice>
+<assessmentID>a8c72bb2-b514-4eba-8ffb-198df5ddea58</assessmentID>
+<explanation>Collaboration means cooperating with the other party to understand their concerns and expressing your own concerns in an effort to find a mutually and completely satisfactory solution (win-win).</explanation>
+<question>Which of the conflict management styles would be most often employed where two parties from similar cultures are in conflict?</question>
+<questionType>multiple</questionType>
+<correctAnswer>Collaboration</correctAnswer>
+</map>
+</item>
+<item>
+<map>
+<answerChoice>
+<list>
+<item>Differences of thought</item>
+<item>Differences of values</item>
+<item>Difference in experiences</item>
+<item>All of them</item>
+</list>
+</answerChoice>
+<assessmentID>16ff177a-efea-4bc5-884b-efb6a00fe16a</assessmentID>
+<explanation>Differences in thought, values, beliefs and life experiences can be a cause of conflict. On a macro level if we see, most world conflicts have emerged because of such differences.</explanation>
+<question>What are the causes of conflict?</question>
+<questionType>multiple</questionType>
+<correctAnswer>All of them</correctAnswer>
+</map>
+</item>
+<item>
+<map>
+<answerChoice>
+<list>
+<item>Verbal communication.</item>
+<item>Negotiation.</item>
+<item>Listening skills.</item>
+<item>Assertiveness.</item>
+</list>
+</answerChoice>
+<assessmentID>f138f328-6ad5-4159-81de-0ba48431660e</assessmentID>
+<explanation>Interpersonal skills are the skills used by a person to interact with others properly. In the business domain, the term generally refers to an employee&apos;s ability to get along with others while getting the job done.</explanation>
+<question>Which interpersonal skills are important when interacting with clients?</question>
+<questionType>multiple</questionType>
+<correctAnswer>Listening skills.</correctAnswer>
+</map>
+</item>
+<item>
+<map>
+<answerChoice>
+<list>
+<item>both people get what they want</item>
+<item>there is a clear winner and a clear loser</item>
+<item>it prevents all new conflicts</item>
+<item>it helps to build new insights and establishes new patterns in a relationship</item>
+</list>
+</answerChoice>
+<assessmentID>84aa0cca-09d3-4098-902b-65f417d1e8ff</assessmentID>
+<explanation>Constructive conflict where Individuals come together to redefine or strengthen their relationship for the greater good of the parties involved.</explanation>
+<question>Conflict is constructive when</question>
+<questionType>multiple</questionType>
+<correctAnswer>both people get what they want</correctAnswer>
+</map>
+</item>
+<item>
+<map>
+<answerChoice>
+<list>
+<item>take charge of the situation by making the other person defensive</item>
+<item>take ownership of your feelings and thoughts</item>
+<item>make a statement that you are right and the other person is wrong</item>
+<item>promote your point of view</item>
+</list>
+</answerChoice>
+<assessmentID>da74bbbe-eb13-4c08-8658-787fb79934d7</assessmentID>
+<explanation>Conflict resolution,  known as reconciliation, is conceptualized as the methods and processes involved in facilitating the peaceful ending of conflict and retribution.</explanation>
+<question>Using &quot;I&quot; language when resolving conflicts gives you an opportunity to</question>
+<questionType>multiple</questionType>
+<correctAnswer>take charge of the situation by making the other person defensive</correctAnswer>
+</map>
+</item>
+</list>
+</data>
+</map>

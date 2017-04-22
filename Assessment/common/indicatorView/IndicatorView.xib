@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="IndicatorView" customModule="Assessment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="hjP-Vh-T10">
+                    <rect key="frame" x="130" y="323" width="20" height="20"/>
+                </activityIndicatorView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="751" verticalCompressionResistancePriority="751" text="Loading..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7hg-mt-tyj">
+                    <rect key="frame" x="160" y="323" width="75" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="0.5" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="hjP-Vh-T10" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="2Q3-9Q-UAw"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7hg-mt-tyj" secondAttribute="trailing" id="3Fx-0w-cGd"/>
+                <constraint firstItem="7hg-mt-tyj" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="5pr-kN-Gqk"/>
+                <constraint firstItem="7hg-mt-tyj" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="10" id="B7X-mk-iJ8"/>
+                <constraint firstItem="7hg-mt-tyj" firstAttribute="leading" secondItem="hjP-Vh-T10" secondAttribute="trailing" constant="10" id="Sgw-u2-NRW"/>
+                <constraint firstItem="7hg-mt-tyj" firstAttribute="centerY" secondItem="hjP-Vh-T10" secondAttribute="centerY" id="V1b-Ru-jUh"/>
+            </constraints>
+            <connections>
+                <outlet property="lblMessage" destination="7hg-mt-tyj" id="2aG-T9-d7d"/>
+            </connections>
+        </view>
+    </objects>
+</document>
